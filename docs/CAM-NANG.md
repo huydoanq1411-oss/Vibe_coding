@@ -1,6 +1,6 @@
 # Cẩm nang Vibe Code Web cho Full Stack AI Engineer
 
-Lộ trình đang học: HTML → CSS → JavaScript → SQL → Java Core → Spring Boot → React, cộng với Python/AI (Machine Learning, Hugging Face) và bảo mật.
+HTML → CSS → JavaScript → SQL → Java Core → Spring Boot → React, cộng với Python/AI (Machine Learning, Hugging Face) và bảo mật.
 
 ## 1. Vibe code trong lộ trình của bạn
 
