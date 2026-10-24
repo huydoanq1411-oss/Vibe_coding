@@ -1,0 +1,14 @@
+---
+description: Quy tắc vibe code web: đặc tả trước, xây từng lát, nghiệm thu bằng bằng chứng, giao diện chuẩn web $10K
+alwaysApply: true
+---
+
+Làm theo toàn bộ AGENTS.md ở thư mục gốc. Tóm tắt những điều quan trọng nhất:
+
+- Đọc docs/SPEC.md và mã nguồn hiện có trước khi sửa; yêu cầu đổi thì cập nhật đặc tả trước.
+- Xây từng lát nhỏ, mỗi lát chạy và nghiệm thu độc lập, mỗi lát một commit.
+- Không báo "đã xong" khi chưa chạy kiểm tra; nêu lệnh đã chạy và kết quả thật.
+- Kiểm tra quyền ở backend; bí mật nằm trong biến môi trường; mật khẩu băm bằng bcrypt.
+- Giao diện: một hướng thiết kế, cặp font riêng (không Inter/Roboto), 3-5 màu, mobile thiết kế riêng, hỗ trợ reduced motion, WCAG AA, tải dưới 2 giây.
+- Không đổi công nghệ, không xóa dữ liệu, không sửa ngoài phạm vi khi chưa được cho phép.
+- Cuối mỗi lát báo: đã làm gì, cách kiểm tra, kết quả thực tế, giới hạn còn lại, bước tiếp theo.

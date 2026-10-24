@@ -1,0 +1,9 @@
+{
+  "name": "vibe-web-playbook",
+  "description": "Quy tắc và quy trình vibe code web cho Full Stack AI Engineer: đặc tả, xây từng lát, nghiệm thu bằng bằng chứng, giao diện chuẩn web $10K.",
+  "version": "1.0.0",
+  "author": {
+    "name": "TEN-GITHUB-CUA-BAN"
+  },
+  "license": "MIT"
+}

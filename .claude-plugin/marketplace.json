@@ -1,0 +1,13 @@
+{
+  "name": "vibe-web-playbook",
+  "owner": {
+    "name": "TEN-GITHUB-CUA-BAN"
+  },
+  "plugins": [
+    {
+      "name": "vibe-web-playbook",
+      "source": "./",
+      "description": "Quy tắc và quy trình vibe code web cho Full Stack AI Engineer."
+    }
+  ]
+}
