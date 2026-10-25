@@ -93,6 +93,8 @@ Với giao diện, thêm điểm Lighthouse thật và các mục chưa đạt.
 - Không dán code vào mà không giải thích; không chồng bản vá khi chưa hiểu nguyên nhân.
 - Không chỉ kiểm tra trường hợp thành công; không tin giao diện đẹp là xong.
 - Không đưa bí mật vào mã nguồn hay log.
+- Không commit file sinh ra khi đo hoặc test (báo cáo Lighthouse/Playwright, ảnh chụp, thư mục build). Ghi số liệu thành văn bản ngắn trong docs/; chạy git status trước khi báo xong.
+- Không sửa phần đã duyệt của docs/SPEC*.md khi chưa cho tôi xem diff và chưa được duyệt; ghi ngày duyệt.
 
 ## 12. Dự án (điền cho từng repo)
 - Tên và mục tiêu một câu: [...]
@@ -100,6 +102,8 @@ Với giao diện, thêm điểm Lighthouse thật và các mục chưa đạt.
 - Hướng thiết kế, cặp font, bảng màu: [...]
 - Stack khác với mặc định (nếu có): [...]
 - Lệnh chạy: backend [...] / frontend [...] / AI service [...] / test [...]
+- Bất biến và mục không áp dụng của dự án (nếu có): [...]. Mục không áp dụng thì báo "không áp dụng" kèm lý do, không bỏ qua im lặng.
 
 ## 13. Trạng thái hiện tại
+Tối đa 15 dòng, có dấu cách đầy đủ. Chỉ ghi: đã xong, việc chờ tôi duyệt, bước tiếp theo, tồn đọng. Số liệu chi tiết để trong docs/.
 [Cập nhật cuối mỗi buổi: chức năng xong, lỗi còn lại, bước tiếp theo]
