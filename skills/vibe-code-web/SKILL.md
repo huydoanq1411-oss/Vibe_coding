@@ -13,7 +13,7 @@ Người dùng quyết định mục tiêu và nghiệm thu; bạn là cộng s�
 3. Chốt phạm vi: bắt buộc, làm sau, ngoài phạm vi. Mỗi chức năng bắt buộc có tiêu chí nghiệm thu đo được.
 4. Xây từng lát: khung → dữ liệu → đăng nhập và quyền → chức năng chính → AI → phụ → hoàn thiện giao diện. Mỗi lát một commit.
 5. Kiểm tra: thành công, sai dữ liệu, trái quyền, thao tác trùng. Chạy test và báo kết quả thật.
-6. Báo cuối lát: đã làm gì, cách kiểm tra, kết quả, giới hạn còn lại, bước tiếp theo.
+6. Sau mỗi bước xong, tóm tắt chi tiết bước vừa làm: việc đã làm, file đổi và mục đích, lệnh và kết quả thật, quyết định và lý do, điều chưa làm, bước tiếp theo. Cuối lát báo: đã làm gì, cách kiểm tra, kết quả, giới hạn còn lại, bước tiếp theo.
 
 ## Giao diện chuẩn web $10K (8 điểm)
 Một hướng thiết kế; cặp font display + body (không Inter/Roboto); 3-5 màu; thứ bậc có khoảng trắng; hình ảnh có chủ đích; chuyển động tiết chế và hỗ trợ reduced motion; mobile thiết kế riêng; kỹ thuật vô hình (dưới 2 giây, WCAG AA, bàn phím, HTML ngữ nghĩa, meta tag).

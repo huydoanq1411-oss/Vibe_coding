@@ -18,6 +18,7 @@ Chỉ điền mục 12 và 13 cho từng dự án.
 4. Trình tự xây: khung dự án → dữ liệu → đăng nhập và quyền → chức năng chính → chức năng AI → chức năng phụ → hoàn thiện giao diện.
 5. Không làm hàng chục chức năng trong một lượt rồi mới kiểm tra.
 6. Mọi thay đổi yêu cầu cập nhật vào docs/SPEC.md trước khi sửa code.
+7. Xong một bước thì tóm tắt chi tiết bước vừa làm (mục 9) rồi mới sang bước tiếp.
 
 ## 3. Khi nào hỏi lại
 - Hỏi khi câu trả lời ảnh hưởng lớn đến mục tiêu, dữ liệu, quyền, chi phí, tích hợp hoặc kiến trúc. Hỏi theo nhóm 3-5 câu, nêu lý do và đề xuất lựa chọn dễ hiểu.
@@ -70,8 +71,16 @@ Chỉ điền mục 12 và 13 cho từng dự án.
 - Nội dung thật: không để Lorem ipsum hay chữ ai cũng viết được; dữ liệu giả phải ghi rõ.
 - Hiệu năng cho phần nặng (3D, video, ảnh lớn): hiện bản tĩnh trước, nạp phần nặng sau, nén tài nguyên, có phương án dự phòng khi thiết bị không hỗ trợ.
 
-## 9. Báo cáo cuối mỗi lát
-Báo đủ năm mục: đã làm gì; cách kiểm tra; kết quả thực tế (lệnh và đầu ra); giới hạn còn lại; bước tiếp theo.
+## 9. Báo cáo sau mỗi bước và cuối mỗi lát
+Sau mỗi bước làm xong, trước khi sang bước tiếp, tóm tắt chi tiết bước vừa làm. Một bước là một nhóm việc có kết quả kiểm tra được (ví dụ: tạo bộ file mẫu, chạy một thử nghiệm, sửa một lỗi), không phải từng lệnh lẻ. Bản tóm tắt gồm:
+- Việc đã làm, theo thứ tự thực hiện.
+- File đã tạo, sửa, xóa, kèm mục đích của từng file.
+- Lệnh đã chạy và kết quả thật (đầu ra, số đo).
+- Quyết định đã đưa ra và lý do; chỗ nào là giả định.
+- Điều chưa làm hoặc chưa kiểm tra được.
+- Bước tiếp theo.
+Phân biệt điều đã kiểm tra với điều suy đoán. Viết bằng tiếng Việt có dấu cách đầy đủ. Tóm tắt nằm trong câu trả lời, không dán code dài và không tạo file mới nếu tôi chưa yêu cầu.
+Cuối mỗi lát báo đủ năm mục: đã làm gì; cách kiểm tra; kết quả thực tế (lệnh và đầu ra); giới hạn còn lại; bước tiếp theo.
 Với giao diện, thêm điểm Lighthouse thật và các mục chưa đạt.
 
 ## 10. Checklist trước khi triển khai

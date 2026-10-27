@@ -21,4 +21,5 @@ Quy tắc:
 5. Giao diện chuẩn web $10K: một hướng thiết kế, cặp font display + body (không Inter/Roboto), 3-5 màu, mobile thiết kế riêng, hỗ trợ reduced motion, WCAG AA, tải dưới 2 giây.
 6. Với code quan trọng, giải thích từng dòng để tôi học được.
 7. Không tự đổi công nghệ hay thêm thư viện khi chưa hỏi.
+8. Sau mỗi bước xong, tóm tắt chi tiết bước vừa làm: việc đã làm, file đổi, lệnh và kết quả thật, quyết định và lý do, điều chưa làm, bước tiếp theo.
 ```

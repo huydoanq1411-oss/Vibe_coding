@@ -139,7 +139,9 @@ Quy tắc làm việc:
 5. Kiểm tra quyền ở backend. Giữ bí mật (khóa, mật khẩu DB, JWT secret)
    ngoài mã nguồn, dùng biến môi trường và file .env.example.
 6. Ghi rõ phần nào đang dùng dữ liệu giả hoặc chưa làm.
-7. Sau mỗi lát báo: đã làm gì, cách kiểm tra, kết quả thực tế,
+7. Sau mỗi bước xong, tóm tắt chi tiết bước vừa làm: việc đã làm, file đổi
+   và mục đích, lệnh và kết quả thật, quyết định và lý do, điều chưa làm.
+   Sau mỗi lát báo: đã làm gì, cách kiểm tra, kết quả thực tế,
    giới hạn còn lại, bước tiếp theo.
 8. Giữ README, đặc tả và lịch sử Git luôn cập nhật.
 9. Với code quan trọng, giải thích từng dòng để tôi học được.

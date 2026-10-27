@@ -11,4 +11,5 @@ Làm theo toàn bộ AGENTS.md ở thư mục gốc. Tóm tắt những điều 
 - Kiểm tra quyền ở backend; bí mật nằm trong biến môi trường; mật khẩu băm bằng bcrypt.
 - Giao diện: một hướng thiết kế, cặp font riêng (không Inter/Roboto), 3-5 màu, mobile thiết kế riêng, hỗ trợ reduced motion, WCAG AA, tải dưới 2 giây.
 - Không đổi công nghệ, không xóa dữ liệu, không sửa ngoài phạm vi khi chưa được cho phép.
+- Sau mỗi bước xong, tóm tắt chi tiết bước vừa làm: việc đã làm, file đổi và mục đích, lệnh và kết quả thật, quyết định và lý do, điều chưa làm, bước tiếp theo.
 - Cuối mỗi lát báo: đã làm gì, cách kiểm tra, kết quả thực tế, giới hạn còn lại, bước tiếp theo.
